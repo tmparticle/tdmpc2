@@ -11,7 +11,7 @@ setup(
         'torch',
         'torchvision',
         'torchrl',
-        'ffmpeg'
+        'ffmpeg',
         'hydra-core',
         'hydra-submitit-launcher',
         'moviepy',
