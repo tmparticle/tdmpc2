@@ -8,8 +8,26 @@ setup(
     packages=find_packages(),
     data_files=[],
     install_requires=[
-        'setuptools',
-        'gymnasium'
+        'torch',
+        'torchvision',
+        'torchrl',
+        'ffmpeg'
+        'hydra-core',
+        'hydra-submitit-launcher',
+        'moviepy',
+        'numpy<2',
+        'omegaconf',
+        'open3d',
+        'opencv-contrib-python',
+        'opencv-python',
+        'pandas',
+        'sapien',
+        'submitit',
+        'termcolor',
+        'transforms3d',
+        'trimesh',
+        'tqdm',
+        'wandb',
         ],
     tests_require=['pytest'],
     entry_points={
